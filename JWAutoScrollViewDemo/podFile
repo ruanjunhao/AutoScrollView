@@ -1,0 +1,3 @@
+target ‘JWAutoScrollViewDemo’ do
+pod ‘SDWebImage’
+end

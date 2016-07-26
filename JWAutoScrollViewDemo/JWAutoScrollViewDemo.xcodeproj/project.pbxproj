@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C20C49D3B378A4DCF5497E5 /* libPods-JWAutoScrollViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E2C3C543E1B01F95359F6C /* libPods-JWAutoScrollViewDemo.a */; };
+		5B092E031D125EF600D7EEF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B092E021D125EF600D7EEF6 /* main.m */; };
+		5B092E061D125EF600D7EEF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B092E051D125EF600D7EEF6 /* AppDelegate.m */; };
+		5B092E091D125EF600D7EEF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B092E081D125EF600D7EEF6 /* ViewController.m */; };
+		5B092E0C1D125EF600D7EEF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B092E0A1D125EF600D7EEF6 /* Main.storyboard */; };
+		5B092E0E1D125EF600D7EEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B092E0D1D125EF600D7EEF6 /* Assets.xcassets */; };
+		5B092E111D125EF600D7EEF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B092E0F1D125EF600D7EEF6 /* LaunchScreen.storyboard */; };
+		5B092E211D125F2C00D7EEF6 /* JWAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B092E1A1D125F2C00D7EEF6 /* JWAutoScrollView.m */; };
+		5B092E221D125F2C00D7EEF6 /* JWAutoScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B092E1C1D125F2C00D7EEF6 /* JWAutoScrollViewCell.m */; };
+		5B092E231D125F2C00D7EEF6 /* JWPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B092E1E1D125F2C00D7EEF6 /* JWPageControl.m */; };
+		5B092E241D125F2C00D7EEF6 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B092E201D125F2C00D7EEF6 /* UIImage+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16E2C3C543E1B01F95359F6C /* libPods-JWAutoScrollViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWAutoScrollViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4800F6982B9A4435B36ABE51 /* Pods-JWAutoScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWAutoScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWAutoScrollViewDemo/Pods-JWAutoScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5B092DFE1D125EF600D7EEF6 /* JWAutoScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWAutoScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B092E021D125EF600D7EEF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B092E041D125EF600D7EEF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B092E051D125EF600D7EEF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B092E071D125EF600D7EEF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B092E081D125EF600D7EEF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B092E0B1D125EF600D7EEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B092E0D1D125EF600D7EEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B092E101D125EF600D7EEF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B092E121D125EF600D7EEF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B092E191D125F2C00D7EEF6 /* JWAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAutoScrollView.h; sourceTree = "<group>"; };
+		5B092E1A1D125F2C00D7EEF6 /* JWAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAutoScrollView.m; sourceTree = "<group>"; };
+		5B092E1B1D125F2C00D7EEF6 /* JWAutoScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWAutoScrollViewCell.h; sourceTree = "<group>"; };
+		5B092E1C1D125F2C00D7EEF6 /* JWAutoScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAutoScrollViewCell.m; sourceTree = "<group>"; };
+		5B092E1D1D125F2C00D7EEF6 /* JWPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPageControl.h; sourceTree = "<group>"; };
+		5B092E1E1D125F2C00D7EEF6 /* JWPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPageControl.m; sourceTree = "<group>"; };
+		5B092E1F1D125F2C00D7EEF6 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		5B092E201D125F2C00D7EEF6 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		68541E28DECE975614E0735B /* Pods-JWAutoScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWAutoScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWAutoScrollViewDemo/Pods-JWAutoScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B092DFB1D125EF600D7EEF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C20C49D3B378A4DCF5497E5 /* libPods-JWAutoScrollViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B092DF51D125EF600D7EEF6 = {
+			isa = PBXGroup;
+			children = (
+				5B092E001D125EF600D7EEF6 /* JWAutoScrollViewDemo */,
+				5B092DFF1D125EF600D7EEF6 /* Products */,
+				BDF6C5382448D4CB17A24144 /* Pods */,
+				9BDFFE6FB6DD7ACEF859E23C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B092DFF1D125EF600D7EEF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B092DFE1D125EF600D7EEF6 /* JWAutoScrollViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B092E001D125EF600D7EEF6 /* JWAutoScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5B092E251D12633300D7EEF6 /* AppOther */,
+				5B092E181D125F2C00D7EEF6 /* AutoScrollView */,
+				5B092E071D125EF600D7EEF6 /* ViewController.h */,
+				5B092E081D125EF600D7EEF6 /* ViewController.m */,
+				5B092E011D125EF600D7EEF6 /* Supporting Files */,
+			);
+			path = JWAutoScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		5B092E011D125EF600D7EEF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B092E021D125EF600D7EEF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B092E181D125F2C00D7EEF6 /* AutoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5B092E191D125F2C00D7EEF6 /* JWAutoScrollView.h */,
+				5B092E1A1D125F2C00D7EEF6 /* JWAutoScrollView.m */,
+				5B092E1B1D125F2C00D7EEF6 /* JWAutoScrollViewCell.h */,
+				5B092E1C1D125F2C00D7EEF6 /* JWAutoScrollViewCell.m */,
+				5B092E1D1D125F2C00D7EEF6 /* JWPageControl.h */,
+				5B092E1E1D125F2C00D7EEF6 /* JWPageControl.m */,
+				5B092E1F1D125F2C00D7EEF6 /* UIImage+Extension.h */,
+				5B092E201D125F2C00D7EEF6 /* UIImage+Extension.m */,
+			);
+			path = AutoScrollView;
+			sourceTree = "<group>";
+		};
+		5B092E251D12633300D7EEF6 /* AppOther */ = {
+			isa = PBXGroup;
+			children = (
+				5B092E041D125EF600D7EEF6 /* AppDelegate.h */,
+				5B092E051D125EF600D7EEF6 /* AppDelegate.m */,
+				5B092E0A1D125EF600D7EEF6 /* Main.storyboard */,
+				5B092E0D1D125EF600D7EEF6 /* Assets.xcassets */,
+				5B092E0F1D125EF600D7EEF6 /* LaunchScreen.storyboard */,
+				5B092E121D125EF600D7EEF6 /* Info.plist */,
+			);
+			name = AppOther;
+			sourceTree = "<group>";
+		};
+		9BDFFE6FB6DD7ACEF859E23C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16E2C3C543E1B01F95359F6C /* libPods-JWAutoScrollViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDF6C5382448D4CB17A24144 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4800F6982B9A4435B36ABE51 /* Pods-JWAutoScrollViewDemo.debug.xcconfig */,
+				68541E28DECE975614E0735B /* Pods-JWAutoScrollViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B092DFD1D125EF600D7EEF6 /* JWAutoScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B092E151D125EF600D7EEF6 /* Build configuration list for PBXNativeTarget "JWAutoScrollViewDemo" */;
+			buildPhases = (
+				69199B4D7C857AC81C2DB383 /* [CP] Check Pods Manifest.lock */,
+				5B092DFA1D125EF600D7EEF6 /* Sources */,
+				5B092DFB1D125EF600D7EEF6 /* Frameworks */,
+				5B092DFC1D125EF600D7EEF6 /* Resources */,
+				F6B596FAEB50B0037A7E03FF /* [CP] Embed Pods Frameworks */,
+				8988B8C3E0D877C6E51DB009 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWAutoScrollViewDemo;
+			productName = JWAutoScrollViewDemo;
+			productReference = 5B092DFE1D125EF600D7EEF6 /* JWAutoScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B092DF61D125EF600D7EEF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zhujianwei;
+				TargetAttributes = {
+					5B092DFD1D125EF600D7EEF6 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4575Y5U33P;
+					};
+				};
+			};
+			buildConfigurationList = 5B092DF91D125EF600D7EEF6 /* Build configuration list for PBXProject "JWAutoScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B092DF51D125EF600D7EEF6;
+			productRefGroup = 5B092DFF1D125EF600D7EEF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B092DFD1D125EF600D7EEF6 /* JWAutoScrollViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B092DFC1D125EF600D7EEF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B092E111D125EF600D7EEF6 /* LaunchScreen.storyboard in Resources */,
+				5B092E0E1D125EF600D7EEF6 /* Assets.xcassets in Resources */,
+				5B092E0C1D125EF600D7EEF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69199B4D7C857AC81C2DB383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8988B8C3E0D877C6E51DB009 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWAutoScrollViewDemo/Pods-JWAutoScrollViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B596FAEB50B0037A7E03FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWAutoScrollViewDemo/Pods-JWAutoScrollViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B092DFA1D125EF600D7EEF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B092E091D125EF600D7EEF6 /* ViewController.m in Sources */,
+				5B092E241D125F2C00D7EEF6 /* UIImage+Extension.m in Sources */,
+				5B092E211D125F2C00D7EEF6 /* JWAutoScrollView.m in Sources */,
+				5B092E061D125EF600D7EEF6 /* AppDelegate.m in Sources */,
+				5B092E031D125EF600D7EEF6 /* main.m in Sources */,
+				5B092E221D125F2C00D7EEF6 /* JWAutoScrollViewCell.m in Sources */,
+				5B092E231D125F2C00D7EEF6 /* JWPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B092E0A1D125EF600D7EEF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B092E0B1D125EF600D7EEF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B092E0F1D125EF600D7EEF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B092E101D125EF600D7EEF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B092E131D125EF600D7EEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B092E141D125EF600D7EEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B092E161D125EF600D7EEF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4800F6982B9A4435B36ABE51 /* Pods-JWAutoScrollViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jianwei jian (BDYG8K5BDK)";
+				INFOPLIST_FILE = JWAutoScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjw.neighbour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "251a3666-db8e-40e4-bc6e-ab8bd64b58fc";
+			};
+			name = Debug;
+		};
+		5B092E171D125EF600D7EEF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68541E28DECE975614E0735B /* Pods-JWAutoScrollViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: jianwei jian (BDYG8K5BDK)";
+				INFOPLIST_FILE = JWAutoScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zjw.neighbour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "251a3666-db8e-40e4-bc6e-ab8bd64b58fc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B092DF91D125EF600D7EEF6 /* Build configuration list for PBXProject "JWAutoScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B092E131D125EF600D7EEF6 /* Debug */,
+				5B092E141D125EF600D7EEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B092E151D125EF600D7EEF6 /* Build configuration list for PBXNativeTarget "JWAutoScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B092E161D125EF600D7EEF6 /* Debug */,
+				5B092E171D125EF600D7EEF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B092DF61D125EF600D7EEF6 /* Project object */;
+}
