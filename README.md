@@ -1,0 +1,2 @@
+# AutoScrollView
+一个用UICollectionView做的自动轮播控件
