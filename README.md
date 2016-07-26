@@ -1,0 +1,3 @@
+#JWAutoScrollView
+
+=一个用UICollectionView做的轮播控件
